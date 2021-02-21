@@ -8,7 +8,7 @@ function App() {
 
   useEffect(()=>{
     fetch(FEATURED_API).then(res=> res.json()).then(data=>{
-      console.log(data);
+      console.log(data.original_title);
       setMovies(data);
     });
     
@@ -17,7 +17,7 @@ function App() {
   return (
     <div>{
       movies.length > 0 && movies.map((movie)=>
-        <Movie key={movie.genres.id} {...movie.genres}/>
+        <Movie key={movie.id} {...movie}/>
       )}
     </div>
     );
