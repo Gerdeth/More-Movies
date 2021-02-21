@@ -5,9 +5,55 @@
 }
 
 body {
-  background-color: rgb(18, 18, 75);
+  background-color:rgb(64, 2, 235);
   color:black;
   font-family: "Poppins", sans-serif;
   margin:0;
 }
+.movie-container{
+  display:flex;
+  flex-wrap:wrap;
+}
+.movie{
+  background-color:lightblue;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  overflow: hidden;
+  margin:1rem;
+  width: 300px;
+  position:relative;
+}
+.movie img{
+  width:100%;
+}
+.movie-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1rem;
 
+}
+.movie_info h3{
+
+  margin:0;
+}
+
+.movie-over{
+  background-color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius:3px;
+  box-shadow: 0 -3px 5px rgba(0,0,0,0.1);
+  color:black;
+  padding:1rem;
+  position:absolute;
+  right:0;
+  bottom:0;
+  transform: translateY(102%);
+  transition:transform 0.3s ease-in-out;
+  overflow: auto;
+  max-height: 100%;
+
+}
+.movie:hover .movie-over{
+  transform:translateY(0)
+}
