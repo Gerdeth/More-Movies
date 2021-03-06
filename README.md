@@ -4,6 +4,7 @@ More movies is a web application that used to find movies and their ratings.
 ## Description
 This project has a search feature wich will return a list of movies, ratings and poster image from an external API. More Movies was built using the REACT library, HTML5 and CSS.
 ## Screenshot
+![More Movies](https://github.com/Gerdeth/More-Movies/blob/main/Screen%20Shot%202021-02-28%20at%207.13.22%20AM.png)
 
 ## Getting Started with Create React App
 
