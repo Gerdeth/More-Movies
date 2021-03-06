@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# More Movies
+More movies is a web application that used to find movies and their ratings.
+
+## Description
+This project has a search feature wich will return a list of movies, ratings and poster image from an external API. More Movies was built using the REACT library, HTML5 and CSS.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
